@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div id="main">
 
-      <input id="input" onChange={(e) => setValue(e.target.value.focus())} value={value} ref={inputRef} />
+      <input id="input" onChange={(e) => setValue(e.target.value)} value={value} ref={inputRef} />
       <button id="button" onClick={onButtonClick}>Click</button>
       <ul id="list">
         <List listx={list} />
